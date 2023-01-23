@@ -7,26 +7,16 @@ def get_max_salary(path: str) -> int:
     max_salary = [
         int(job["max_salary"]) for job in data if job["max_salary"].isdigit()
     ]
-    print(max(max_salary))
     return max(max_salary)
     raise NotImplementedError
 
 
 def get_min_salary(path: str) -> int:
-    """Get the minimum salary of all jobs
-
-    Must call `read`
-
-    Parameters
-    ----------
-    path : str
-        Must be passed to `read`
-
-    Returns
-    -------
-    int
-        The minimum salary paid out of all job opportunities
-    """
+    data = read(path)
+    min_salary = [
+        int(job["min_salary"]) for job in data if job["min_salary"].isdigit()
+    ]
+    return min(min_salary)
     raise NotImplementedError
 
 
