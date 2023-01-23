@@ -7,9 +7,6 @@ def get_unique_industries(path: str) -> List[str]:
     industries = [job['industry'] for job in data if job['industry']]
     return list(set(industries))
 
-    raise NotImplementedError
-
 
 def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
     return [job for job in jobs if job["industry"] == industry]
-    raise NotImplementedError
