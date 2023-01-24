@@ -7,4 +7,3 @@ def test_brazilian_jobs():
     for job in brazilian_jobs:
         print(mock.keys())
         assert mock.keys() == job.keys()
-        
