@@ -9,7 +9,7 @@ Neste projeto foram implementadas análises a partir de um conjunto de dados sob
 
 Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma plataforma disponiblizando conjuntos de dados para cientistas de dados.
 
-Habilidades que foram trabalhadas:
+## Habilidades que foram trabalhadas:
 
 Utilizar o terminal interativo do Python.
 Utilizar estruturas condicionais e de repetição.
