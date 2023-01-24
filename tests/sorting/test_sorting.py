@@ -16,8 +16,6 @@ order_max_salary = [
 ]
 
 
-
-
 def test_sort_by_criteria():
     sort_by(mock, "max_salary")
     assert mock == order_max_salary
