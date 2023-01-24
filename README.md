@@ -5,11 +5,11 @@ Projeto realizado no curso de Desenvolvimento Web da Trybe(Ciência da computaç
 ## Sobre o projeto
 
 <div align="justify">
-<p>
+
 Neste projeto foram implementadas análises a partir de um conjunto de dados sobre empregos. minhas implementações foram incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Também tive a oportunidade de escrever testes para a implementação de uma análise de dados. Por fim, como bônus, tive o desafio de escrever uma rota e view para um recurso novo usando Flask!
-<br>
+
 Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma plataforma disponiblizando conjuntos de dados para cientistas de dados.
-</P
+
 ## Habilidades que foram trabalhadas:
 
 * Utilizar o terminal interativo do Python.
