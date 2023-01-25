@@ -10,6 +10,12 @@ Neste projeto foram implementadas análises a partir de um conjunto de dados sob
 
 Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma plataforma disponiblizando conjuntos de dados para cientistas de dados.
 
+## Tecnologias utilizadas
+
+Em seu desenvolvimento foi utilizada linguagem ***Python*** para escrever os códigos e ***Flask***, um framework web muito popular na comunidade Python,  para o desenvolvimento web. 
+
+Fora isso, foi utilizado o framework ***pytest***, para testar funções que já haviam sido implementadas pela Trybe.
+
 ## Habilidades que foram trabalhadas:
 
 * Utilizar o terminal interativo do Python.
@@ -21,3 +27,32 @@ Os dados foram extraídos do site Glassdoor e obtidos através do Kaggle, uma pl
 * Escrever testes com Pytest.
 * Escrever seus próprios módulos e importá-los em outros códigos.
 </div>
+
+## Como rodar o projeto:
+
+1- Navegue até o local onde deseja clonar o repositório e utilize o **git clone**:
+```
+git clone git@github.com:Tayna-Silva-Macedo/project-job-insights.git
+```
+
+2- Acesse o diretório do projeto **project-job-insights**:
+```
+cd project-job-insights
+```
+
+3- Crie e ative um ambiente virtual para o projeto:
+```
+python3 -m venv .venv && source .venv/bin/activate
+```
+
+4- Instale as dependências:
+```
+python3 -m pip install -r dev-requirements.txt
+```
+
+5- Rode a aplicação Flask:
+```
+flask run
+```
+
+> ℹ️ Depois de subir a aplicação, é possível acessar o site gerado pelo Flask em http://localhost:5000.
