@@ -32,7 +32,7 @@ Fora isso, foi utilizado o framework ***pytest***, para testar funções que já
 
 1- Navegue até o local onde deseja clonar o repositório e utilize o **git clone**:
 ```
-git clone git@github.com:Tayna-Silva-Macedo/project-job-insights.git
+git clone git@github.com:LucasOAssuncao/Project-Job-insights.git
 ```
 
 2- Acesse o diretório do projeto **project-job-insights**:
